@@ -1,0 +1,467 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(227, 216, 216);
+}
+
+
+/* -----------------Home---------------------- */
+
+.home{
+    margin: 0px;
+    padding-bottom: 200px;
+    height:700px;
+    background-size: cover;  
+    background-position: center;  
+    background-image: url('/Photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg'); 
+
+}
+
+nav{
+
+    display:flex;
+    justify-content: center;
+    text-align: center; 
+    color:black;
+    padding-top: 10px;
+    padding-left: 0px;
+
+}
+
+nav ul{
+
+    padding: 0px;    
+    display:inline-flex;
+    list-style: none;
+    padding-bottom: 200px;
+
+}
+
+
+ 
+nav a:hover{
+    background-color: blueviolet;
+   
+}
+
+
+nav a{
+    text-decoration: none;
+    color:white;
+}
+
+.spaceNavBtn{
+
+    margin-left:70px;
+}
+
+.home-text{
+    text-align:center;
+    color:#fff;
+    font-size: 3vw;
+}
+
+
+
+
+.learn{
+    /* margin:100px 100px 100px 0px; */
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius:5px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+/* .learn:hover {
+    background-color: blueviolet;
+} */
+
+/* -----------------------About------------------------------- */
+
+#about{
+    min-height:800px;
+    /* width:800px; */
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    justify-items: center;
+    /* color : white; */
+
+}
+
+.about-content{
+
+    display:grid;
+    
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    justify-items: center;    
+    /*
+
+    vertical-align: top; 
+    box-sizing: border-box;
+
+
+
+    padding:100px;
+*/
+}
+
+
+img{
+    margin-top: 30px;
+    
+    height:600px;
+    width:400px;
+    /*
+    height:90%;
+    width:80%;
+    flex-basis:35%;
+    margin-left: 0px;
+*/
+}
+
+
+.about-text{
+    display:grid;
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.about-text p {
+    
+    width: 400px;
+}
+
+
+.size{
+    font-size: 70px;
+}
+
+
+.tech-icons-container{
+    display:grid;
+
+}
+.tech-icons i{
+    margin-bottom: 40px;
+}
+.tech-icons {
+    width:300px;
+}
+
+.tech-icons a:hover{
+    color: #2980b9;
+}
+
+.download-button{
+    color:black;
+    padding: 10px 20px;
+    background-color: white ;
+    width:50;
+    width:60;
+
+    border-radius:5px;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #2980b9;
+}
+
+
+
+/* ------------Timeline------------------------- */
+#heading{
+    font-style: Bold;
+    margin-bottom: 60px;
+    font-size:30px;
+}
+#timeline{
+
+    text-align: center;
+    margin-top: 80px;
+}
+
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+.timeline-item{
+    margin:20px 100px 20px 100px;
+    border-radius:10px;
+    background-color: #fff;
+    position: relative;
+    width: 60%; 
+    padding: 20px;
+
+}
+
+
+
+.timeline-item:hover{
+    background-color: #fff;
+}
+
+.connector { 
+
+    position: relative;
+    width: 2px; 
+    height: 70px; 
+    background-color: black; 
+  }
+
+  .date {
+    font-weight: bold;
+    margin-bottom: 5px;
+
+  }
+  
+  .event {
+    margin-top: 10px;
+
+  }
+
+
+  /* ---------------------------Projects--------------------- */
+
+#projects{
+
+    text-align: center;
+    /* min-height:1000px; */
+    margin-top: 80px;
+
+
+}
+
+.project-separator {
+    border-bottom: 1px solid #1a1919; 
+    padding-bottom: 20px; 
+    margin-bottom: 20px; 
+    width:70%;
+}
+
+#coming-soon{
+    font-weight: 700;
+    font-size: 3vw;
+    color: black;
+}
+
+footer {
+
+    display:flex;
+    padding-top: 30px;
+    background-color: #fff;
+    padding-bottom:15px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.rows{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.proj-content {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.proj-text,
+.proj-icon {
+    flex: 1;
+}
+
+
+.proj-icon{
+
+    margin-top: 50px ;
+}
+
+    
+
+
+/* --------------------------------Contacts--------------- */
+
+.contacts{
+
+    border:1px solid rgb(130, 12, 12);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    height:800px;
+
+}
+
+#myForm{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+    
+}
+
+.contact-left {
+    flex: 1;
+
+    padding-right: 20px;
+}
+
+
+.icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons a {
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
+}
+
+.icons a:hover {
+    color: #2980b9;
+}
+
+.icons i {
+    font-size: 50px;
+   
+}
+
+.icons2 a{
+    font-size: 50px;
+    color:black;
+
+}
+
+.icons2 a:hover{
+    color:#2980b9;
+}
+
+
+form {
+    /* max-width: 400px; */
+    width: 100%;
+}
+
+input,
+textarea ,button{
+    border:1px solid rgb(96, 97, 96);
+    margin-bottom:10px;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+
+input{
+    height: 70px;
+}
+
+textarea{
+    height :100px;
+} 
+
+button {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    width:150px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    img{
+    
+        height:275px;
+        width:400px;
+    }
+    
+    .spaceNavBtn{
+
+        margin-left:40px;
+    }
+
+}
+@media screen and (min-width: 600px) {
+    img{
+    
+        height:400px;
+        width:600px;
+    }
+
+    input,
+    textarea ,button{
+
+        width: 400px;
+    }
+
+    .spaceNavBtn{
+
+        margin-left:70px;
+    }
+
+    .home-text{
+        text-align:center;
+        color:#fff;
+        font-size: 3.4vw;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 400px) {
+    img{
+    
+        height:250px;
+        width:360px;
+    }
+
+    input,
+    textarea ,button{
+
+        width: 340px;
+    }
+
+    .home-text{
+
+        font-size: 4vw;
+    }
+
+    #coming-soon{
+        font-size: 3.7vw;
+    }
+    
+}
