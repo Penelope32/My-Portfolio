@@ -101,15 +101,7 @@ nav a{
     align-items: center; 
     text-align: center;
     justify-items: center;    
-    /*
 
-    vertical-align: top; 
-    box-sizing: border-box;
-
-
-
-    padding:100px;
-*/
 }
 
 
@@ -118,12 +110,7 @@ img{
     
     height:600px;
     width:400px;
-    /*
-    height:90%;
-    width:80%;
-    flex-basis:35%;
-    margin-left: 0px;
-*/
+
 }
 
 
@@ -361,7 +348,7 @@ footer {
 
 
 form {
-    /* max-width: 400px; */
+ 
     width: 100%;
 }
 
