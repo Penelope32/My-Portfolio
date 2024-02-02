@@ -35,12 +35,13 @@ export const db = getFirestore();
 async function printAllUsers() {
 
     let data = await getDocs(collection(db, "bbd1"));
-    data.forEach((doc) => {
-        console.log((doc.id + "    " + doc.data().userName));
-    });
+    // data.forEach((doc) => {
+    //     console.log((doc.id + "    " + doc.data().userName));
+    // });
 }
 
 printAllUsers();
+
 
 
 
@@ -50,9 +51,9 @@ printAllUsers();
  */
 document.getElementById('btnAddNewUser').addEventListener('click', () => {
 
-    var varUserName = document.getElementById("userName").value;
-    var varUserEmail = document.getElementById("userEmail").value;
-    var varUserMessage = document.getElementById("userMessage").value;
+    let varUserName = document.getElementById("userName").value;
+    let varUserEmail = document.getElementById("userEmail").value;
+    let varUserMessage = document.getElementById("userMessage").value;
    
 
 

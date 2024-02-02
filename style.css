@@ -8,10 +8,11 @@ body{
 
 /* -----------------Home---------------------- */
 
+
+
 .home{
     margin: 0px;
     padding-bottom: 200px;
-    height:700px;
     background-size: cover;  
     background-position: center;  
     background-image: url('/Photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg'); 
@@ -51,10 +52,10 @@ nav a{
     color:white;
 }
 
-.spaceNavBtn{
+/* .spaceNavBtn{
 
     margin-left:70px;
-}
+} */
 
 .home-text{
     text-align:center;
@@ -74,9 +75,6 @@ nav a{
     text-decoration: none;
 }
 
-/* .learn:hover {
-    background-color: blueviolet;
-} */
 
 /* -----------------------About------------------------------- */
 
